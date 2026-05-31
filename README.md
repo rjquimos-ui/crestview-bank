@@ -4,7 +4,44 @@ Crestview Bank is a clean, interactive banking website simulation. It features a
 
 ## 🚀 Live Demo
 Check out the live website here: 
-👉 **https://crestview-bank.rj-quimos.workers.dev**
+👉 **https://crestview-bank.pages.dev**
+
+---
+
+## 📸 Interface Screenshots
+
+<details>
+<summary>🔍 Click to expand and view all app pages</summary>
+
+### 1. Secure Log In Page
+*Features the custom ambient background, glassmorphism login card, and project disclaimer.*
+![Secure Login](screenshots/login.png)
+
+### 2. Open Account (Registration)
+*A responsive split-pane layout to register profile credentials and capture initial deposits.*
+![Open Account](screenshots/register.png)
+
+### 3. Main Dashboard
+*Displays personalized session data, real-time balance calculations, and primary navigation actions.*
+![Main Dashboard](screenshots/dashboard.png)
+
+### 4. Deposit Funds
+*Dynamic contextual transaction screen formatted specifically for handling input deposits.*
+![Deposit Funds](screenshots/deposit.png)
+
+### 5. Make a Withdrawal
+*The same dynamic form automatically re-configured to process withdrawals with account safety boundaries.*
+![Make a Withdrawal](screenshots/withdraw.png)
+
+### 6. Transaction History Ledger
+*A clean data table displaying past credits, debits, and time-stamped activity.*
+![Transaction History](screenshots/history.png)
+
+### 7. Close Account View
+*A multi-factor verification gate requiring password and text confirmation before scrubbing user files.*
+![Close Account](screenshots/close-account.png)
+
+</details>
 
 ---
 
@@ -34,6 +71,14 @@ Check out the live website here:
 ```text
 crestview-bank/
 │
-├── index.html       # The main file (holds all the HTML, CSS, and JS code together)
-└── images/          # Folder for project images
-    └── crestview-logo.png
+├── index.html          # The main file (holds all the HTML, CSS, and JS code together)
+├── images/             # Folder for project branding graphics
+│   └── crestview-logo.png
+└── screenshots/        # Folder containing user interface screenshots
+    ├── login.png
+    ├── register.png
+    ├── dashboard.png
+    ├── deposit.png
+    ├── withdraw.png
+    ├── history.png
+    └── close-account.png
