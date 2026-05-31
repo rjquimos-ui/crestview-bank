@@ -4,7 +4,7 @@ Crestview Bank is a clean, interactive banking website simulation. It features a
 
 ## 🚀 Live Demo
 Check out the live website here: 
-👉 **https://crestview-bank.pages.dev**
+👉 **crestview-bank.rj-quimos.workers.dev**
 
 ---
 
