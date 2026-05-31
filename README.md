@@ -1,39 +1,39 @@
-# Crestview Bank - Secure Portal Simulation
+# Crestview Bank - Simple Bank Simulation
 
-Crestview Bank is a high-fidelity, fully responsive client-side banking application simulation. Built with a sleek crystalline ambient theme and robust glassmorphism design elements, this portal provides a seamless simulation of essential banking features, persisting data completely on the user's browser via local storage.
+Crestview Bank is a clean, interactive banking website simulation. It features a modern dark green theme with smooth layouts and handles everything directly in the browser—meaning it saves all your data using your browser's local storage without needing an external database.
 
 ## 🚀 Live Demo
-You can view the live deployment of this project here: 
+Check out the live website here: 
 👉 **crestview-bank.rj-quimos.workers.dev**
 
 ---
 
 ## ✨ Features
 
-- **All-in-One Client Architecture:** Built as a single self-contained document encompassing structural markup, localized aesthetic configurations, and core transaction state engines.
-- **Secure Login & Authentication Engine:** Verifies account credentials securely against an internal client-side registry database.
-- **Split-Pane Registration Journey:** A modern two-panel account opening flow capturing user profile details, complete with automated account number generation and initial deposit mapping.
-- **Crystalline Theme Dashboard:** Beautifully exhibits active session data, responsive layout transitions, and high-contrast available balance presentation rules.
-- **Dynamic Transaction Processing:** Supports contextual fund deposits and withdrawals bound by strict transaction boundaries.
-- **🛑 100 PHP Transaction Minimum:** Hard-coded security rules blocking any deposit or withdrawal lower than ₱100.00 at both the HTML browser validation layer and JavaScript controller layer.
-- **Chronological Transaction Ledger:** Real-time data sync module compiling and rendering standard credit/debit transaction history entries.
-- **Permanent Account Destruction:** A safe profile scrub mechanism triggered via validation keywords and double-factor password verification.
+- **Single File Setup:** HTML, CSS styling, and JavaScript logic are all built into one single file, making it incredibly easy to open and run.
+- **User Login:** A secure login screen that checks your credentials against the accounts saved in your browser.
+- **Easy Sign-Up:** A clear registration page that takes your info, generates a random account number, and sets up your starting balance.
+- **Main Dashboard:** Shows your name, account number, and available balance clearly at a glance.
+- **Deposits & Withdrawals:** Simple forms that let you add or take out money from your account instantly.
+- **🛑 ₱100 Minimum Limit:** Built-in blocks that prevent users from depositing or withdrawing any amount less than ₱100.00.
+- **Transaction History:** A clean table layout that tracks all your past credit and debit actions with dates.
+- **Close Account Option:** A permanent delete feature that clears your data from the browser after you type "CONFIRM" and verify your password.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **HTML5:** Semantic architecture layout routing system.
-- **CSS3:** Custom ambient animations, linear design matrices, responsive grid systems, and flexbox viewports (embedded).
-- **JavaScript (ES6+):** Pure client-side state-machine engine processing mockup CRUD operations into local storage disk memory (embedded).
+- **HTML5:** Used to build the structure of the pages and the screen transitions.
+- **CSS3:** Custom styles, dark green theme gradients, and layout controls that make the app look good on both phones and desktops.
+- **JavaScript:** Handles all the math, login checks, and database updates instantly.
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Layout
 
 ```text
 crestview-bank/
 │
-├── index.html       # The entire application (HTML structure, CSS styling, and JS logic)
-└── images/          # Assets and branding resources
+├── index.html       # The main file (holds all the HTML, CSS, and JS code together)
+└── images/          # Folder for project images
     └── crestview-logo.png
